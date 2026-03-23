@@ -30,7 +30,7 @@ How to Run
 5.	High-resolution images for the manuscript figures will be saved automatically in the working directory.
 Data Processing Details
 
-•	Variables: Changes in stress markers ($\Delta$Cortisol, $\Delta$PHQ-9, $\Delta$GAD-7) were calculated by subtracting pre-intervention values from post-intervention values.
+•	Variables: Changes in stress markers (Delta_Cortisol, Delta_PHQ-9, Delta_GAD-7) were calculated by subtracting pre-intervention values from post-intervention values.
 •	Missing Values: Missing data in the $\Delta$ variables were handled using mean imputation to maintain statistical power prior to the clustering process. The logic is explicitly included in the provided script.
 •	Clustering Architecture: Data was standardized, reduced to 3 dimensions via UMAP, and clustered using GMM (k=3).
 
